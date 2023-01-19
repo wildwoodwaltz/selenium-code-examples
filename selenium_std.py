@@ -3,10 +3,12 @@ from selenium.webdriver.common.by import By
 
 # create a new browser instance
 driver = webdriver.Chrome()
+driver.fullscreen_window()
 
 # navigate to the NY Times website
 driver.get("https://www.nytimes.com/")
 
+# open search bar so it can be used
 button = driver.find_element(By.CSS_SELECTOR, "css-10488qs")
 button.click()
 
