@@ -13,7 +13,7 @@ This repository contains a Selenium automation project that allows you to automa
 1. Clone this repository:
 
 ```
-git clone https://github.com/[username]/selenium-automation.git
+git clone https://github.com/wildwoodwaltz/selenium-code-examples.git
 ```
 
 2. Install the required Python packages:
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 2. Run the script:
 
 ```
-python example.py
+python selenium.py
 ```
 
 ## Example
@@ -56,6 +56,8 @@ This script will open a Chrome browser, navigate to google.com, print the title 
 - [Selenium with Python Tutorial](https://www.selenium.dev/documentation/en/getting_started_with_webdriver/browsers/)
 - [Selenium API documentation](https://www.selenium.dev/selenium/docs/api/py/)
 - [WebDriver documentation](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+- [Chrome webdriver-binary](https://pypi.org/project/chromedriver-binary/)
+- [Geckodriver autoinstaller](https://pypi.org/project/geckodriver-autoinstaller/)
 
 ## Note
 
