@@ -7,6 +7,9 @@ driver = webdriver.Chrome()
 # navigate to the NY Times website
 driver.get("https://www.nytimes.com/")
 
+button = driver.find_element(By.CSS_SELECTOR, "css-10488qs")
+button.click()
+
 # find the search box element
 search_box = driver.find_element(By.NAME, "query")
 
@@ -29,4 +32,4 @@ print(headline.text)
 # close the browser
 driver.quit()
 
-#Please also not that the .css selectors were gathered by hand as the NYTimes uses an algorithm to generate css selectors so while some may be the same they will not all be (This is to help prevent webscraping)
+#Please also note that the .css selectors were gathered by hand as the NYTimes uses an algorithm to generate css selectors so while some may be the same they will not all be (This is to help prevent webscraping)
